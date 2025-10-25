@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tap & Win</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <img src="assets_logo.png" alt="Tap & Win" style="max-width:80%;height:auto;margin:6px 0;">
+        <div id="playfield"></div>
+        <button id="playBtn">IGRAJ</button>
+        <button id="rewardAdBtn">Pogledaj reklamu za bonus</button>
+    </div>
+    <script src="game.js"></script>
+    <script>
+        var rewardedAdUnitID = "YOUR_ADMOB_REWARDED_AD_UNIT_ID";
+        document.getElementById("rewardAdBtn").addEventListener("click", function() {
+            alert("Ovo je placeholder za Rewarded Ad. Zamijeni var 'rewardedAdUnitID' s tvojim ID-om.");
+        });
+    </script>
+</body>
+</html>
